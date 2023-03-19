@@ -1,0 +1,277 @@
+/* .homeContent {
+  height: 100vh;
+} */
+.conteudoHome{
+  background-color: #FFF;
+}
+
+.secaoSlidePaginaInicio{
+  /* background-image: url(../../public/ImgemIlustrativa5.jpeg); */
+  background-image: url(../../public/trabalhador.jpg);
+  /* background-color: rgba(0, 0, 0, 0.577); */
+  background-color: rgba(0,0,0,0.7);
+  background-blend-mode: overlay;
+  background-size: cover;
+  /* max-height: 500px; */
+  height: 600px;
+  
+  /* height: 85vh; */
+  /* dps ver oque fica melhor se é ocupando a tela inicial toda ou como tava antes */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  animation: subirDescer 6s infinite alternate;
+}
+
+.infoSlide{
+  text-align: center;
+  width: 70%;
+  padding-top: 22px;
+  /* position: relative;
+  top: 20px;
+  left: 10px; */
+  /* dps ver essa parte aqui dar o toque final */
+}
+
+.infoSlide h1 {
+  padding-bottom: 25px;
+  color: #FFF;
+  font-size: 27px;
+}
+
+.infoSlide p {
+  color: #FFF;
+  font-size: 22px;
+}
+
+/* .botoesDoSlide {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+} */
+
+.botaoSaibaMais {
+  font-size: 22px;
+  padding: 10px;
+  background-color: #FFF;
+  /* background-color: #cb4c46; */
+  border-radius: 5px;
+  border: none;
+  /* display: flex; */
+}
+
+/* .botaoSaibaMais a {
+  color: #111;
+  text-decoration: none;
+} */
+
+.botaoCatalogo {
+  font-size: 18px;
+  padding: 10px;
+  background-color: #FFF;
+  /* background-color: #cb4c46;
+  color: #FFF; */
+  border-radius: 5px;
+  /* border: none; */
+  cursor: pointer;
+}
+/* acaba secao */
+
+/* outra secao */
+.secaoBaixarCatalogo {
+  /* background-image: url(../../public/ImgemIlustrativa5.jpeg); */
+  /* background-color: rgba(0,0,0,0.7); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* background-position-y: 97%; */
+  margin: 0 10%;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  
+  background-color: #11111170;
+  color: #FFF;
+  height: 355px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* border: 3px solid #000; */
+}
+
+.secaoTeste{
+  background-image: url(../../public/ImgemIlustrativa5.jpeg);
+  background-color: rgba(0,0,0,0.7);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 97%;
+  height: 355px;
+}
+
+.infoCatalogo h3 {
+  font-size: 36px;
+  padding-bottom: 15px;
+  /* color: #FFF; */
+}
+
+/* .infoCatalogo p {
+  color: #FFF;
+
+} */
+/* acaba secao */
+
+/* outra secao */
+.infoSectionProdutos {
+  background-color: #FFF;
+  padding: 30px 30px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+}
+
+.infoSectionProdutos h2 {
+  padding-top: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.infoSectionProdutos p {
+  padding-top: 5px;
+  font-size: 18px;
+  /* border-bottom: 1px solid #111; */
+  text-align: center;
+}
+
+.SectionProdutosPaginaHome {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+/* .gridProdutos {
+  display: grid;
+  grid: repeat(2, 1fr) / auto-flow 300px;
+  gap: 10px;
+  padding: 20px 0px;
+} */
+
+.gridProdutos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px 0;
+}
+
+/* .gridProdutos img {
+  width: 100px;
+  border: 2px solid #111;
+} */
+
+.ItemImagem1 {
+  border: 2px solid #111;
+  height: 250px;
+  background-image: url(../../public/ImgemIlustrativa3.jpeg);
+  background-size: cover;
+  /* background-size: contain;
+  background-repeat: no-repeat; */
+  background-position-y: 60%;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  
+}
+
+.ItemImagem2 {
+  border: 2px solid #111;
+  height: 250px;
+  background-image: url(../../public/acoplamento-de-correntes.png);
+  background-size: cover;
+  /* background-size: contain;
+  background-repeat: no-repeat; */
+  background-position-y: 30%;
+  /* display: flex;
+  align-items: flex-end; */
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+}
+.ItemImagem3 {
+  border: 2px solid #111;
+  height: 250px;
+  background-image: url(../../public/corrente-de-transmissao.png);
+  /* background-size: cover; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+/* .ItemImagem3:hover{
+  margin: 10px;
+} */
+
+.ItemImagem4 {
+  border: 2px solid #111;
+  height: 250px;
+  background-image: url(../../public/ImgemIlustrativa4.jpeg);
+  background-size: cover;
+  /* background-size: contain;
+  background-repeat: no-repeat; */
+  background-position-y: 60%;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.tituloDaImagem {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #FFF;
+  border-top-right-radius: 20px;
+}
+
+/* .ItemImagem {
+  border: 2px solid #111;
+  height: 150px;
+} */
+
+.botaoParaPaginaProdutos {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* padding-left: 100px; */
+}
+
+.botaoVerMaisProdutos{
+  font-size: 18px;
+  padding: 10px;
+  background-color: #FFF;
+  /* background-color: #cb4c46;
+  color: #FFF; */
+  border-radius: 5px;
+  cursor: pointer;
+}
+.botaoVerMaisProdutos a {
+  color: #111;
+  text-decoration: none;
+}
+/* acaba secao */
+
+@keyframes subirDescer {
+  0% {
+      background-position-y: 100%;
+  }
+
+  20% {
+      background-position-y: 100%;
+  }
+
+  40% {
+      background-position-y: 100%;
+  }
+
+  100% {
+      background-position-y: 0%;
+  }
+}

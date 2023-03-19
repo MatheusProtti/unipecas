@@ -1,0 +1,72 @@
+.banner{
+    /* background-image: url(../../public/ImgemIlustrativa5.jpeg); */
+    background-image: url(../../../public/ImgemIlustrativa5.jpeg);
+    background-color: rgba(0,0,0,0.7);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 97%;
+    height: 355px;
+  }
+
+.secaoUm{
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 30px 0;
+}
+
+.infoSecaoUm{
+    max-width: 1260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aondeAtuamos{
+    background-color: #FFF;
+    width: 60%;
+    padding-right: 50px;
+}
+
+.aondeAtuamos h1{
+    padding-bottom: 20px;
+}
+
+.imagemUm{
+    width: 40%;
+    height: 350px;
+    background-image: url(../../../public/trabalhador.jpg);
+    background-size: cover;
+
+}
+
+/* Acaba a primeira seção */
+
+/* Começa a segunda seção */
+
+.secaoDois{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 30px 0;
+}
+
+.infoSecaoDois{
+    max-width: 1260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagemUm{
+    width: 40%;
+    height: 350px;
+    background-image: url(../../../public/trabalhador.jpg);
+    background-size: cover;
+}
+
+.aondeAtuamosDois{
+    width: 60%;
+    padding-left: 50px;
+}
