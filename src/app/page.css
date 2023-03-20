@@ -1,22 +1,9 @@
-/* .homeContent {
-  height: 100vh;
-} */
-.conteudoHome{
-  background-color: #FFF;
-}
-
 .secaoSlidePaginaInicio{
-  /* background-image: url(../../public/ImgemIlustrativa5.jpeg); */
   background-image: url(../../public/trabalhador.jpg);
-  /* background-color: rgba(0, 0, 0, 0.577); */
   background-color: rgba(0,0,0,0.7);
   background-blend-mode: overlay;
   background-size: cover;
-  /* max-height: 500px; */
   height: 600px;
-  
-  /* height: 85vh; */
-  /* dps ver oque fica melhor se é ocupando a tela inicial toda ou como tava antes */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -28,10 +15,6 @@
   text-align: center;
   width: 70%;
   padding-top: 22px;
-  /* position: relative;
-  top: 20px;
-  left: 10px; */
-  /* dps ver essa parte aqui dar o toque final */
 }
 
 .infoSlide h1 {
@@ -39,103 +22,63 @@
   color: #FFF;
   font-size: 27px;
 }
-
-.infoSlide p {
+/* .infoSlide p {
   color: #FFF;
   font-size: 22px;
-}
-
-/* .botoesDoSlide {
-  width: 70%;
-  display: flex;
-  justify-content: space-around;
 } */
-
 .botaoSaibaMais {
   font-size: 22px;
   padding: 10px;
   background-color: #FFF;
-  /* background-color: #cb4c46; */
   border-radius: 5px;
   border: none;
-  /* display: flex; */
 }
-
-/* .botaoSaibaMais a {
-  color: #111;
-  text-decoration: none;
-} */
-
-.botaoCatalogo {
-  font-size: 18px;
-  padding: 10px;
-  background-color: #FFF;
-  /* background-color: #cb4c46;
-  color: #FFF; */
-  border-radius: 5px;
-  /* border: none; */
-  cursor: pointer;
-}
-/* acaba secao */
-
-/* outra secao */
-.secaoBaixarCatalogo {
-  /* background-image: url(../../public/ImgemIlustrativa5.jpeg); */
-  /* background-color: rgba(0,0,0,0.7); */
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
-  /* background-position-y: 97%; */
-  margin: 0 10%;
-  border-top-right-radius: 30px;
-  border-top-left-radius: 30px;
-  
-  background-color: #11111170;
-  color: #FFF;
-  height: 355px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  /* border: 3px solid #000; */
-}
-
-.secaoTeste{
-  background-image: url(../../public/ImgemIlustrativa5.jpeg);
-  background-color: rgba(0,0,0,0.7);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-y: 97%;
-  height: 355px;
-}
-
-.infoCatalogo h3 {
-  font-size: 36px;
-  padding-bottom: 15px;
-  /* color: #FFF; */
-}
-
-/* .infoCatalogo p {
-  color: #FFF;
-
-} */
-/* acaba secao */
+/* acaba a seção */
 
 /* outra secao */
 .infoSectionProdutos {
+  position: relative;
+  overflow: hidden;
   background-color: #FFF;
-  padding: 30px 30px;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
+  padding: 1.8rem 1.8rem;
+}
+
+.circuloUm{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #cb4d46dc;
+  clip-path: circle(20% at bottom right);
+}
+.circuloDois{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #cb4d46dc;
+  clip-path: circle(15% at top left);
+}
+
+.tituloProdutos{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .infoSectionProdutos h2 {
-  padding-top: 10px;
+  padding-left: 6px;
+  /* padding-top: 10px; */
   font-size: 30px;
-  text-align: center;
+  /* text-align: center; */
+  border-left: 3px solid #cb4d46dc;
 }
 
 .infoSectionProdutos p {
-  padding-top: 5px;
+  padding-top: 2rem;
   font-size: 18px;
   /* border-bottom: 1px solid #111; */
   text-align: center;
@@ -147,14 +90,7 @@
   /* justify-content: center; */
 }
 
-/* .gridProdutos {
-  display: grid;
-  grid: repeat(2, 1fr) / auto-flow 300px;
-  gap: 10px;
-  padding: 20px 0px;
-} */
-
-.gridProdutos {
+.produtos {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -162,22 +98,22 @@
   padding: 30px 0;
 }
 
-/* .gridProdutos img {
-  width: 100px;
-  border: 2px solid #111;
-} */
-
 .ItemImagem1 {
   border: 2px solid #111;
   height: 250px;
+  overflow: hidden;
   background-image: url(../../public/ImgemIlustrativa3.jpeg);
   background-size: cover;
-  /* background-size: contain;
-  background-repeat: no-repeat; */
   background-position-y: 60%;
   border-bottom-left-radius: 20px;
   border-top-right-radius: 20px;
-  
+
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+}
+.ItemImagem1:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .ItemImagem2 {
@@ -193,8 +129,15 @@
   border-bottom-left-radius: 20px;
   border-top-right-radius: 20px;
 
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
 }
-.ItemImagem3 {
+.ItemImagem2:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.ItemImagem3{
   border: 2px solid #111;
   height: 250px;
   background-image: url(../../public/corrente-de-transmissao.png);
@@ -204,12 +147,16 @@
   background-position-y: 50%;
   border-bottom-left-radius: 20px;
   border-top-right-radius: 20px;
-}
-/* .ItemImagem3:hover{
-  margin: 10px;
-} */
 
-.ItemImagem4 {
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+}
+.ItemImagem3:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.ItemImagem4{
   border: 2px solid #111;
   height: 250px;
   background-image: url(../../public/ImgemIlustrativa4.jpeg);
@@ -219,6 +166,13 @@
   background-position-y: 60%;
   border-bottom-left-radius: 20px;
   border-top-right-radius: 20px;
+
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+}
+.ItemImagem4:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .tituloDaImagem {
@@ -226,7 +180,7 @@
   text-align: center;
   font-size: 18px;
   font-weight: 500;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.3);
   color: #FFF;
   border-top-right-radius: 20px;
 }
@@ -255,6 +209,31 @@
 .botaoVerMaisProdutos a {
   color: #111;
   text-decoration: none;
+}
+/* acaba secao */
+
+/* outra seção */
+.secaoBaixarCatalogo {
+  /* background: linear-gradient(146deg, rgba(17,17,17,1) 55%, rgba(255,255,255,1) 55%); */
+  background: linear-gradient(146deg, rgba(0,0,0,1) 50%, rgba(255,241,150,1) 50%);
+  color: #FFF;
+  height: 355px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.infoCatalogo h3 {
+  font-size: 36px;
+  padding-bottom: 15px;
+}
+
+.botaoCatalogo {
+  font-size: 18px;
+  padding: 10px;
+  background-color: #FFF;
+  border-radius: 5px;
+  cursor: pointer;
 }
 /* acaba secao */
 

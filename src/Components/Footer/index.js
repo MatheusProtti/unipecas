@@ -8,15 +8,15 @@ function Footer() {
             <img src={"./logoUnipecas.png"} alt="logo"></img>
             <div className=''>
                 <h4>Fale Conosco</h4>
-                <span className='iconePhone'>
+                <span className='infoText'>
                     <BiPhone/>
                     <p>(51) 3059 3805</p>
                 </span>
-                <span className='iconePhone'>
+                <span className='infoText'>
                     <BiEnvelope/>
                     <p>vendas@unipecas.ind.br</p>
                 </span>
-                <span className='iconePhone'>
+                <span className='infoText'>
                     <BiTimeFive/>
                     <p>Seg - Sex : 8:00 - 17:30</p>
                 </span>

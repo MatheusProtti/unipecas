@@ -1,0 +1,25 @@
+.cardBox{
+    text-align: center;
+}
+.card {
+    border: 2px solid #111;
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 50%;
+  
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+  }
+  .card:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  .card img{
+    height: 100%;
+    width: 100%;
+  }
+  .titulo{
+    margin-top: 10px;
+    border-left: 3px solid #cb4d46dc;
+  }
