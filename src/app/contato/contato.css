@@ -1,6 +1,5 @@
 
 .contentContato {
-    background-color: #FFF;
     /* background-color: #F9F9F9; */
     /* background-color: #ff8478; */
     /* background-color: #ffbbbb39; */
@@ -12,35 +11,32 @@
     /* background-color: #fcae7d; */
     /* background-color: #6f2f07; */
     /* background-color: #953c03; */
+    /* background-color: #be4a04; */
 
-    /* be4a04 para o background*/
-    /* background-image: url(../../Images/fundo1.jpg); */
+    /* background-color: #FFF; */
+    background-color: #F9F9F9;
+    padding: 50px 0 100px 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-evenly;
-    border-top: 1px solid #111;
+    /* border-top: 1px solid #111; */
+    /* border-bottom: 1px solid #111; */
 }
-
-/* .contentContato h1{
-    text-align: center;
-} */
 
 .blocoForm {
     max-width: 500px;
+    width: 100%;
 }
 
 form {
-    width: 500px;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    /* background-color: antiquewhite; */
 }
 
 form h1 {
     text-align: center;
-    padding: 30px 0;
-    /* background-color: #cb4c46; */
+    padding: 10px 0 3.75rem 0;
 }
 
 .inputForm {
@@ -49,7 +45,6 @@ form h1 {
     width: 100%;
     border-radius: 5px;
     border: 1px solid #111;
-    /* border: none; */
 }
 
 .inputForm:focus {
@@ -92,18 +87,31 @@ form h1 {
 }
 
 .mapa{
-    background-color: #FFF;
+    border: none;
+    width: 500px;
+    border: 10px solid #FFF;
 }
 
-.mapa h3{
+/* .mapa h3{
     text-align: center;
     padding: 10px;
     background-color: #FFF;
     color: #DB4F42;
     border-top: 1px solid #111;
-}
+} */
 
 iframe {
     width: 100%;
-    height: 400px;
+    height: 100%;
+    /* height: 400px; */
 }
+
+@media screen and (max-width: 1500px) {
+    .contentContato{
+        display: flex;
+        flex-direction: column-reverse;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    
+  }

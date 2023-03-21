@@ -5,8 +5,8 @@ function Footer() {
     return(
         <div className='contentFooter'>
 
-            <img src={"./logoUnipecas.png"} alt="logo"></img>
-            <div className=''>
+            <a href='/'><img src={"./logo2Unipecas.jpg"} alt="logo"/></a>
+            <div className='infoFooter'>
                 <h4>Fale Conosco</h4>
                 <span className='infoText'>
                     <BiPhone/>
@@ -21,9 +21,8 @@ function Footer() {
                     <p>Seg - Sex : 8:00 - 17:30</p>
                 </span>
             </div>
-            <div className='infoFooter'>
+            <div className='footerText'>
                 <p>UniPeças - Todos os direitos Reservados @ - 2023</p>
-                <br></br>
                 <p>Rua Primavera, 198 - Bairro Rio Branco - Canoas - RS - CEP: 92200-030</p>
             </div>
         </div>

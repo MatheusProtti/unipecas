@@ -20,7 +20,6 @@ function Header() {
     <div className="conteudoHeader">
 
       <div className="infoHeader">
-        {/* dps fazer isso em componentes */}
         <span className='infoText'>
           <BiPhone/>
           <p>(51) 3059 3805</p>

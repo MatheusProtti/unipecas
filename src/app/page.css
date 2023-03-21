@@ -29,9 +29,11 @@
 .botaoSaibaMais {
   font-size: 22px;
   padding: 10px;
-  background-color: #FFF;
-  border-radius: 5px;
-  border: none;
+  color: #FFF;
+  background-color: #ffffff00;
+  border-radius: 10px;
+  border: 1px solid #FFF;
+  cursor: pointer;
 }
 /* acaba a seção */
 
@@ -98,111 +100,15 @@
   padding: 30px 0;
 }
 
-.ItemImagem1 {
-  border: 2px solid #111;
-  height: 250px;
-  overflow: hidden;
-  background-image: url(../../public/ImgemIlustrativa3.jpeg);
-  background-size: cover;
-  background-position-y: 60%;
-  border-bottom-left-radius: 20px;
-  border-top-right-radius: 20px;
-
-  -webkit-transition: -webkit-transform .5s ease;
-  transition: transform .5s ease;
-}
-.ItemImagem1:hover{
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-.ItemImagem2 {
-  border: 2px solid #111;
-  height: 250px;
-  background-image: url(../../public/acoplamento-de-correntes.png);
-  background-size: cover;
-  /* background-size: contain;
-  background-repeat: no-repeat; */
-  background-position-y: 30%;
-  /* display: flex;
-  align-items: flex-end; */
-  border-bottom-left-radius: 20px;
-  border-top-right-radius: 20px;
-
-  -webkit-transition: -webkit-transform .5s ease;
-  transition: transform .5s ease;
-}
-.ItemImagem2:hover{
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-.ItemImagem3{
-  border: 2px solid #111;
-  height: 250px;
-  background-image: url(../../public/corrente-de-transmissao.png);
-  /* background-size: cover; */
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position-y: 50%;
-  border-bottom-left-radius: 20px;
-  border-top-right-radius: 20px;
-
-  -webkit-transition: -webkit-transform .5s ease;
-  transition: transform .5s ease;
-}
-.ItemImagem3:hover{
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-.ItemImagem4{
-  border: 2px solid #111;
-  height: 250px;
-  background-image: url(../../public/ImgemIlustrativa4.jpeg);
-  background-size: cover;
-  /* background-size: contain;
-  background-repeat: no-repeat; */
-  background-position-y: 60%;
-  border-bottom-left-radius: 20px;
-  border-top-right-radius: 20px;
-
-  -webkit-transition: -webkit-transform .5s ease;
-  transition: transform .5s ease;
-}
-.ItemImagem4:hover{
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-.tituloDaImagem {
-  width: 100%;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 500;
-  background-color: rgba(0, 0, 0, 0.3);
-  color: #FFF;
-  border-top-right-radius: 20px;
-}
-
-/* .ItemImagem {
-  border: 2px solid #111;
-  height: 150px;
-} */
-
 .botaoParaPaginaProdutos {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
-  /* padding-left: 100px; */
 }
 
 .botaoVerMaisProdutos{
   font-size: 18px;
   padding: 10px;
   background-color: #FFF;
-  /* background-color: #cb4c46;
-  color: #FFF; */
   border-radius: 5px;
   cursor: pointer;
 }
@@ -214,25 +120,54 @@
 
 /* outra seção */
 .secaoBaixarCatalogo {
-  /* background: linear-gradient(146deg, rgba(17,17,17,1) 55%, rgba(255,255,255,1) 55%); */
-  background: linear-gradient(146deg, rgba(0,0,0,1) 50%, rgba(255,241,150,1) 50%);
+  position: relative;
+  background-color: #111;
+  /* background: linear-gradient(146deg, rgba(17,17,17,1) 67%, rgba(255,255,255,1) 43%); */
+  background: linear-gradient(146deg, rgba(17,17,17,1) 60%, rgba(255,255,255,1) 40%);
+  /* background: linear-gradient(146deg, rgba(0,0,0,1) 50%, rgba(255,241,150,1) 50%); */
+  /* background: linear-gradient(146deg, rgba(255,241,150,1) 50%, rgba(0,0,0,1) 50%); */
+  /* background: linear-gradient(146deg, rgb(255, 255, 255) 50%, rgba(0,0,0,1) 50%); */
+  /* color: #cb4d46dc; */
+  /* color: #C24304; */
+  /* color: #111; */
   color: #FFF;
   height: 355px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  /* border: 1px solid #111; */
+}
+.circuloTres{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #cb4d46dc;
+  clip-path: circle(15% at bottom left);
+}
+.circuloQuatro{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #cb4d46dc;
+  clip-path: circle(20.45% at top right);
 }
 
 .infoCatalogo h3 {
-  font-size: 36px;
-  padding-bottom: 15px;
+  font-size: 2.25rem;
+  padding-bottom: 0.938rem;
 }
 
 .botaoCatalogo {
-  font-size: 18px;
+  font-size: 17px;
+  font-weight: 400px;
+  border: 2px solid #111;
   padding: 10px;
   background-color: #FFF;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
 }
 /* acaba secao */
@@ -252,5 +187,18 @@
 
   100% {
       background-position-y: 0%;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .secaoBaixarCatalogo{
+    background: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .infoCatalogo{
+    text-align: center;
   }
 }

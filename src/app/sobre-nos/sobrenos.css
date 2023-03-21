@@ -1,53 +1,43 @@
-.banner{
-    /* background-image: url(../../public/ImgemIlustrativa5.jpeg); */
-    background-image: url(../../../public/ImgemIlustrativa5.jpeg);
-    background-color: rgba(0,0,0,0.7);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-y: 97%;
-    height: 355px;
-  }
-
-.secaoUm{
+.primeiraSecao{
     background-color: #FFF;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 50px 0 30px 0;
 }
+.primeiraSecao p{
+    font-weight: 400px;
+}
 
 .infoSecaoUm{
     max-width: 1260px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .aondeAtuamos{
-    background-color: #FFF;
-    width: 60%;
-    padding-right: 50px;
+    padding-right: 3.12rem;
 }
 
 .aondeAtuamos h1{
     padding-bottom: 20px;
 }
 
-.imagemUm{
-    width: 40%;
-    height: 350px;
-    background-image: url(../../../public/trabalhador.jpg);
-    background-size: cover;
+.imagemUm img{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
 
 }
-
 /* Acaba a primeira seção */
 
 /* Começa a segunda seção */
-
-.secaoDois{
+.segundaSecao{
+    background-color: #cccccc44;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     padding: 50px 0 30px 0;
 }
@@ -55,18 +45,35 @@
 .infoSecaoDois{
     max-width: 1260px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.imagemUm{
-    width: 40%;
-    height: 350px;
-    background-image: url(../../../public/trabalhador.jpg);
-    background-size: cover;
+    justify-content: space-evenly;
 }
 
 .aondeAtuamosDois{
-    width: 60%;
-    padding-left: 50px;
+    padding-left: 3.12rem;
 }
+
+.imagemDois img{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+@media screen and (max-width: 785px) {
+    .infoSecaoUm{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .aondeAtuamos{
+
+        padding-right: 0;
+    }
+    .infoSecaoDois{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .aondeAtuamosDois{
+        padding: 0 0 0 0;
+    }
+  }

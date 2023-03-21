@@ -1,8 +1,6 @@
 import Link from "next/link";
 import './page.css'
-// import imagem1 from '../../public/ImgemIlustrativa3.jpeg'
 import Card from "@/Components/Card";
-import imagem1 from "trabalhador.jpg"
 
 function Home() {
     return(
@@ -31,29 +29,26 @@ function Home() {
               </p>
               <div className="SectionProdutosPaginaHome">
                 <div className="produtos">
-                  
                   <Card 
-                    img={imagem1}
+                    img={"foto1.jpeg"}
+                    titulo={"Acoplamento-de-correntes"}
                   />
-                  <Card />
-                  <Card />
-                  <Card />
-                  <Card />
-                  {/* <div className="ItemImagem1">
-                    <div className="tituloDaImagem">
-                      <span>acoplamento-de-correntes</span>
-                    </div>
-                  </div> */}
-
-                  {/* <div className="ItemImagem2">
-                    <div className="tituloDaImagem"><span>acoplamento-de-correntes</span></div>
-                  </div>
-                  <div className="ItemImagem3">
-                    <div className="tituloDaImagem"><span>corrente-de-transmissao</span></div>
-                  </div>
-                  <div className="ItemImagem4">
-                    <div className="tituloDaImagem"><span>acoplamento-de-correntes</span></div>
-                  </div> */}
+                  <Card 
+                    img={"foto2.jpeg"}
+                    titulo={"Acoplamento-de-correntes"}
+                  />
+                  <Card 
+                    img={"foto3.jpeg"}
+                    titulo={"Acoplamento-de-correntes"}
+                  />
+                  <Card 
+                    img={"foto4.jpeg"}
+                    titulo={"Acoplamento-de-correntes"}
+                  />
+                  <Card 
+                    img={"foto5.jpeg"}
+                    titulo={"Acoplamento-de-correntes"}
+                  />
                 </div>
                 <div className="botaoParaPaginaProdutos">
                   <button className="botaoVerMaisProdutos"><Link href='/produtos'>Ver Mais Produtos</Link></button>
@@ -62,6 +57,8 @@ function Home() {
             </section>
 
             <section className="secaoBaixarCatalogo">
+              <div className="circuloTres"></div>
+              <div className="circuloQuatro"></div>
               <div className="infoCatalogo">
                 <h3>Baixe nosso catálogo</h3>
                 <p>Aproveite para baixar nosso catálogo e veja todos os nossos produtos!</p>
