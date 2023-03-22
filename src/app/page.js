@@ -11,10 +11,13 @@ function Home() {
                   <h1>Atualmente a Equipe Técnica da UNIPEÇAS é referência nacional no desenvolvimento de soluções em correntes de transmissão e de engenharia.</h1>
                   {/* <p>UNIPEÇAS é capaz de oferecer produtos e serviços que superam as expectativas quanto à agilidade, qualidade e custos</p> */}
                 </div>
-                <div className="botoesDoSlide">
-                  <button className="botaoSaibaMais"><Link href='/sobre-nos'>Saiba Mais</Link></button>
-                  {/* <button className="botaoCatalogo">DOWNLOAD DE NOSSO CATÁLOGO</button> */}
+                <div class="container ">
+	                <p class="animated-word "><Link href='/sobre-nos'>Saiba Mais</Link></p>
                 </div>
+                {/* <div className="botoesDoSlide"> */}
+                  {/* <button className="botaoSaibaMais btn btn-sm animated-button thar-one"><Link href='/sobre-nos'>Saiba Mais</Link></button> */}
+                  {/* <button className="botaoCatalogo">DOWNLOAD DE NOSSO CATÁLOGO</button> */}
+                {/* </div> */}
             </section>
 
             <section className="infoSectionProdutos">
@@ -22,11 +25,9 @@ function Home() {
               <div className="circuloDois"></div>
               <div className="tituloProdutos">
                 <h2>Nossos produtos</h2>
+                <p>Fornecendo produtos diferenciados na linha de correntes e rodas dentadas normatizados ou desenvolvidos sob projeto,
+                  a UNIPEÇAS não trabalha com "produtos de segunda linha".</p>
               </div>
-              <p>
-                Fornecendo produtos diferenciados na linha de correntes e rodas dentadas normatizados ou desenvolvidos sob projeto,
-                a UNIPEÇAS não trabalha com "produtos de segunda linha".
-              </p>
               <div className="SectionProdutosPaginaHome">
                 <div className="produtos">
                   <Card 
