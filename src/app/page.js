@@ -52,7 +52,7 @@ function Home() {
                   />
                 </div>
                 <div className="botaoParaPaginaProdutos">
-                  <button className="botaoVerMaisProdutos"><Link href='/produtos'>Ver Mais Produtos</Link></button>
+                  <button className="botaoVerMaisProdutos btn"><Link href='/produtos'>Ver Mais Produtos</Link></button>
                 </div>
               </div>
             </section>
@@ -64,7 +64,9 @@ function Home() {
                 <h3>Baixe nosso catálogo</h3>
                 <p>Aproveite para baixar nosso catálogo e veja todos os nossos produtos!</p>
               </div>
-              <button className="botaoCatalogo">DOWNLOAD DE NOSSO CATÁLOGO</button>
+              <div className="botaoParaPaginaProdutos">
+                <button className="botaoVerMaisProdutos btn">DOWNLOAD DE NOSSO CATÁLOGO</button>
+              </div>
             </section>
         </div>
     )

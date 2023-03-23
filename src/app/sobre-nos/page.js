@@ -34,7 +34,7 @@ function SobreNos() {
               <br/>
               <p>Para qualquer projeto que você precisar teremos uma solução especialmente desenvolvida para seu negócio.</p>
               <br/>
-              <p>O sistema Corrente/Roda Dentada se constitui no principal meio utilizado na indústria para transmitir potência e movimentar mecanismos onde se requer deslocamento positivo, relação de transmissão precisa e posicionamento perfeito. A seguir enumeramos as principais vantagens que fazem com que este sistema seja preferido em todos os setores industriais..</p>
+              <p>O sistema Corrente/Roda Dentada se constitui no principal meio utilizado na indústria para transmitir potência e movimentar mecanismos onde se requer deslocamento positivo, relação de transmissão precisa e posicionamento perfeito.</p>
             </div>
           </div>
         </div>

@@ -43,6 +43,7 @@ function Contato() {
                         aria-required="true" 
                         aria-invalid="false" 
                         placeholder="Mensagem"
+                        
                       />
                     </span>
                     <span>

@@ -61,21 +61,19 @@
 }
 
 @media screen and (max-width: 785px) {
+    
     .infoSecaoUm{
         display: flex;
         flex-direction: column;
-        text-align: center;
+        text-align: justify;
     }
+    .aondeAtuamosDois,
     .aondeAtuamos{
-        padding-bottom: 10px;
-        padding-right: 0;
+        padding: 10px 15px 16px 15px;
     }
     .infoSecaoDois{
         display: flex;
         flex-direction: column-reverse;
-        text-align: center;
-    }
-    .aondeAtuamosDois{
-        padding: 0 0 10px 0;
+        text-align: justify;
     }
   }
