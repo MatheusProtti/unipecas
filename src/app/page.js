@@ -56,7 +56,7 @@ function Home() {
                 <p>Aproveite para baixar nosso catálogo e veja todos os nossos produtos!</p>
               </div>
               <div className="botaoParaPaginaProdutos">
-                <button className="botaoVerMaisProdutos btn">DOWNLOAD DE NOSSO CATÁLOGO</button>
+                <a className="botaoVerMaisProdutos btn" href="CatalogoUnipecas.pdf" target="_blank">DOWNLOAD DE NOSSO CATÁLOGO</a>
               </div>
             </section>
         </div>

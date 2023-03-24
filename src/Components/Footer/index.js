@@ -1,4 +1,5 @@
 import './footer.css'
+import { SlSocialInstagram } from "react-icons/sl";
 import { BiEnvelope, BiPhone, BiTimeFive } from "react-icons/bi";
 
 function Footer() {
@@ -20,6 +21,14 @@ function Footer() {
                     <BiTimeFive/>
                     <p>Seg - Sex : 8:00 - 17:30</p>
                 </span>
+            </div>
+            <div>
+                <h4>Nossas redes</h4>
+                <a href='https://www.instagram.com/unipecas_correntes/' target="_blank">
+                    <SlSocialInstagram
+                        className='insta'
+                    />
+                </a>
             </div>
             <div className='footerText'>
                 <p>UniPeças - Todos os direitos Reservados @ - 2023</p>
