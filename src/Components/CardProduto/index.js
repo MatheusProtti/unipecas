@@ -3,7 +3,6 @@ import './cardproduto.css'
 function CardProduto({titulo, imagem}) {
     return(
       <div className='cardProduto'>
-        {/* <img src='trabalhador.jpg'/> */}
         <img src={imagem}/>
         <div className='cardTitulo'>
             <h2>{titulo}</h2>

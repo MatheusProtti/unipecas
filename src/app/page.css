@@ -1,9 +1,10 @@
 .secaoSlidePaginaInicio{
-  background-image: url(../../public/trabalhador.jpg);
+  /* background-image: url(../../public/trabalhador.jpg); */
+  background-image: url(../../public/image5.png);
   background-color: rgba(0,0,0,0.7);
   background-blend-mode: overlay;
   background-size: cover;
-  background-position-y: 100%;
+  /* background-position-y: 100%; */
   height: 600px;
   display: flex;
   flex-direction: column;

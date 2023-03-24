@@ -26,20 +26,20 @@ function Home() {
               <div className="SectionProdutosPaginaHome">
                 <div className="produtos">
                   <Card 
-                    img={"foto1.jpeg"}
-                    titulo={"Acoplamento-de-correntes"}
+                    img={"Engrenagem-bipatida.png"}
+                    titulo={"Roda dentada bibartida"}
                   />
                   <Card 
-                    img={"foto2.jpeg"}
-                    titulo={"Acoplamento-de-correntes"}
+                    img={"acoplamento-de-correntes.png"}
+                    titulo={"Acoplamento de corrente"}
                   />
                   <Card 
-                    img={"foto3.jpeg"}
-                    titulo={"Acoplamento-de-correntes"}
+                    img={"correntes-pares.png"}
+                    titulo={"corrente especial UNP"}
                   />
                   <Card 
-                    img={"foto4.jpeg"}
-                    titulo={"Acoplamento-de-correntes"}
+                    img={"Roda-flangeada.png"}
+                    titulo={"Roda flangeada UNP"}
                   />
                 </div>
                 <div className="botaoParaPaginaProdutos">

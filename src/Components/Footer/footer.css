@@ -8,6 +8,10 @@
     font-weight: 700;
 }
 
+.contentFooter img{
+    padding-top: 10px;
+}
+
 .footerText {
     text-align: center;
     display: block;

@@ -6,7 +6,7 @@ function SobreNos() {
         <div className='primeiraSecao'>
           <div className='infoSecaoUm'>
             <div className='aondeAtuamos'>
-              <h1>Mais de <span>xx anos</span> de história!</h1>
+              <h1>Mais de <span className='aumentar'>13 anos</span> de história!</h1>
               <br/>
               <p>Surgida com a união de alguns dos mais experientes técnicos da área de correntes e rodas dentadas, a UNIPEÇAS é capaz de oferecer produtos e serviços que superam as expectativas quanto à agilidade, qualidade e custos.</p>
               <br/>
@@ -15,7 +15,8 @@ function SobreNos() {
               <p>Atualmente a Equipe Técnica da UNIPEÇAS é referência nacional no desenvolvimento de soluções em correntes de transmissão e de engenharia.</p>
             </div>
             <div className='imagemUm'>
-              <img src='trabalhador.jpg'/>
+              {/* <img src='trabalhador.jpg'/> */}
+              <img src='image4.png'/>
             </div>
           </div>
         </div>
@@ -23,7 +24,8 @@ function SobreNos() {
         <div className='segundaSecao'>
           <div className='infoSecaoDois'>
             <div className='imagemDois'>
-              <img src='trabalhador.jpg'/>
+              {/* <img src='trabalhador.jpg'/> */}
+              <img src='image6.png'/>
             </div>
             <div className='aondeAtuamosDois'>
               <h2>Soluções para o seu negócio</h2>
