@@ -47,7 +47,8 @@
 .infoSecaoDois{
     max-width: 1260px;
     display: flex;
-    justify-content: space-evenly;
+    text-align: justify;
+    justify-content: space-between;
 }
 
 .aondeAtuamosDois{

@@ -77,9 +77,12 @@
 }
 
 .infoSectionProdutos p {
-  padding-top: 2rem;
+  /* padding-top: 2rem; */
+  padding: 2rem 7rem 0 7rem;
   font-size: 18px;
   text-align: center;
+  font-weight: 600;
+  z-index: 3;
 }
 
 .SectionProdutosPaginaHome {
@@ -110,8 +113,6 @@
   background-color: #FFF;
   border-radius: 5px;
   cursor: pointer;
-  /* border: none; */
-  /* box-shadow: 0 9px #999; */
   border: 1px solid #111;
   text-transform: uppercase;
   font-weight:700;
@@ -123,7 +124,6 @@
 }
 .btn{
   background:rgb(255, 255, 255);
-  /* color:#fff; */
   box-shadow:0 5px 0 #2c2c2c;
 }
 .btn:hover{

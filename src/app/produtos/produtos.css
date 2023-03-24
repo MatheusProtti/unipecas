@@ -1,12 +1,21 @@
 .contentProdutos {
-    height: 100vh;
-    /* color: red; */
-    /* background-color: aqua; */
+    /* height: 100vh; */
+    padding: 50px 120px;
+    max-width: 1910px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contentProdutos h1 {
+    text-align: center;
+    padding: 20px 0 30px 0;
+   text-transform: uppercase;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+
 }
 
-h1 {
-    text-align: center;
-    padding: 10px;
-    /* background-color: aqua; */
-}
 

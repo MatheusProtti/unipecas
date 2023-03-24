@@ -8,16 +8,11 @@ function Home() {
 
             <section className="secaoSlidePaginaInicio">
                 <div className="infoSlide">
-                  <h1>Atualmente a Equipe Técnica da UNIPEÇAS é referência nacional no desenvolvimento de soluções em correntes de transmissão e de engenharia.</h1>
-                  {/* <p>UNIPEÇAS é capaz de oferecer produtos e serviços que superam as expectativas quanto à agilidade, qualidade e custos</p> */}
+                  <h1>Atualmente a equipe técnica da UNIPEÇAS é referência nacional no desenvolvimento de soluções em correntes de transmissão e de engenharia.</h1>
                 </div>
                 <div class="container ">
 	                <p class="animated-word "><Link href='/sobre-nos'>Saiba Mais</Link></p>
                 </div>
-                {/* <div className="botoesDoSlide"> */}
-                  {/* <button className="botaoSaibaMais btn btn-sm animated-button thar-one"><Link href='/sobre-nos'>Saiba Mais</Link></button> */}
-                  {/* <button className="botaoCatalogo">DOWNLOAD DE NOSSO CATÁLOGO</button> */}
-                {/* </div> */}
             </section>
 
             <section className="infoSectionProdutos">
@@ -44,10 +39,6 @@ function Home() {
                   />
                   <Card 
                     img={"foto4.jpeg"}
-                    titulo={"Acoplamento-de-correntes"}
-                  />
-                  <Card 
-                    img={"foto5.jpeg"}
                     titulo={"Acoplamento-de-correntes"}
                   />
                 </div>
