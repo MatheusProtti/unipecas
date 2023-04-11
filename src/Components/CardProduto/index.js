@@ -1,6 +1,6 @@
 import './cardproduto.css'
 
-function CardProduto({titulo, imagem}) {
+function CardProduto({titulo, imagem, paragrafo}) {
     return(
       <div className='cardProduto'>
         <img src={imagem}/>
@@ -9,7 +9,8 @@ function CardProduto({titulo, imagem}) {
         </div>
         <br />
         <div className='cardParagrafo'>
-            <p>Suspendisse potenti. Sed egestas, ante et vulputate volutpat</p>
+          <p>{paragrafo}</p>
+            {/* <p>Suspendisse potenti. Sed egestas, ante et vulputate volutpat</p> */}
         </div>
       </div>
     )

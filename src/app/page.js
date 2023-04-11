@@ -10,8 +10,8 @@ function Home() {
                 <div className="infoSlide">
                   <h1>Atualmente a equipe técnica da UNIPEÇAS é referência nacional no desenvolvimento de soluções em correntes de transmissão e de engenharia.</h1>
                 </div>
-                <div class="container ">
-	                <p class="animated-word "><Link href='/sobre-nos'>Saiba Mais</Link></p>
+                <div className="container ">
+	                <p className="animated-word "><Link href='/sobre-nos'>Saiba Mais</Link></p>
                 </div>
             </section>
 
