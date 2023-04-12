@@ -10,7 +10,7 @@ function Produtos() {
                 <CardProduto 
                     titulo="Correntes de transmissão"
                     imagem="corrente-de-transmissao.png"
-                    paragrafo="Suspendisse poCorrentes de Transmissão são usadas para transmitir potência entre duas ou mais engrenagens. Existem diversos modelos de correntes de transmissãotenti. Sed egestas, ante et vulputate volutpat"
+                    paragrafo="Correntes de Transmissão são usadas para transmitir potência entre duas ou mais engrenagens. Existem diversos modelos de correntes de transmissãotenti. Sed egestas, ante et vulputate volutpat"
                 />
                 <CardProduto 
                     titulo="Acoplamento-de-correntes"
@@ -50,17 +50,17 @@ function Produtos() {
                 <CardProduto 
                     titulo="Correntes forjadas e suas rodas"
                     imagem="roda-para-corrente-forjada.png"
-                    paragrafo="Suspendisse potenti. Sed egestas, ante et vulputate volutpat"
+                    paragrafo="Correntes forjadas são mais densas e resistentes devido ao forjamento a quente, enquanto as rodas das correntes possuem dentes que se encaixam precisamente na corrente para uma transmissão de energia eficiente."
                 />
                 <CardProduto 
                     titulo="Correntes especiais sob desenho"
                     imagem="corrente-especial1.png"
-                    paragrafo="Suspendisse potenti. Sed egestas, ante et vulputate volutpat"
+                    paragrafo="O desenho das rodas dentadas especiais é realizado de forma personalizada, levando em conta os parâmetros técnicos e as especificações do projeto em que serão utilizadas."
                 />
                 <CardProduto 
                     titulo="Rodas dentadas especiais sob desenho"
                     imagem="Roda-flangeada.png"
-                    paragrafo="Suspendisse potenti. Sed egestas, ante et vulputate volutpat"
+                    paragrafo="O desenho das rodas dentadas especiais é realizado de forma personalizada, levando em conta os parâmetros técnicos e as especificações do projeto em que serão utilizadas."
                 />
             </div>
         </div>
