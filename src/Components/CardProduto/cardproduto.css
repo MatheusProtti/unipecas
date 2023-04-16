@@ -36,12 +36,13 @@
 }
 .cardParagrafo{
     color: #666666;
+    text-align: justify;
 }
 
 @media screen and (max-width: 880px) {
     .cardProduto{
         width: 350px;
-        height: 530px;
+        height: 525px;
     }
     
 }
