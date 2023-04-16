@@ -1,5 +1,3 @@
-import './cardproduto.css'
-
 function CardProduto({titulo, imagem, paragrafo}) {
     return(
       <div className='cardProduto'>
@@ -10,7 +8,6 @@ function CardProduto({titulo, imagem, paragrafo}) {
         <br />
         <div className='cardParagrafo'>
           <p>{paragrafo}</p>
-            {/* <p>Suspendisse potenti. Sed egestas, ante et vulputate volutpat</p> */}
         </div>
       </div>
     )

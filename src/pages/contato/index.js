@@ -1,8 +1,8 @@
-"use client"
+// "use client"
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { CiPhone, CiMail, CiLocationOn } from "react-icons/ci";
-import './contato.css'
+
 
 function Contato(){ 
   

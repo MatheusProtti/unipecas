@@ -1,5 +1,3 @@
-import './card.css'
-
 function Card({img, titulo}) {
     return(
       <div className='cardBox'>

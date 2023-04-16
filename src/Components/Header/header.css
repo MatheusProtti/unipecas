@@ -81,12 +81,17 @@
 }
 
 @media screen and (max-width: 1040px){
+    .conteudoHeader{
+        padding-bottom: 105px;
+    }
     .infoHeader{
         padding: 0;
         justify-content: center;
     }
     .navHeader{
         justify-content: space-between;
+        position: fixed;
+        z-index: 90;
     }
     .navHeader ul li{
         font-size: 19px;
@@ -123,7 +128,6 @@
         justify-content: center;
         text-align: center;
         background-color: #FFF;
-        /* gap: -10px; */
         transition: 0.3s;
         border-top: 1px solid #111;
     }

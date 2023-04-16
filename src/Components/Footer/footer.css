@@ -32,11 +32,21 @@
         display: flex;
         flex-direction: column;
         padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .contentFooter img{
+        width: 99%;
     }
     .footerText,
     .infoFooter,
     .contentFooter a{
         padding: 10px;
     }
-    
+    .redes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
   }

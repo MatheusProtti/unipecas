@@ -1,5 +1,4 @@
-"use client"
-import './header.css'
+// "use client"
 import Link from "next/link";
 import { BiEnvelope, BiPhone, BiTimeFive } from "react-icons/bi";
 import { useState } from 'react';
@@ -31,12 +30,12 @@ function Header() {
       </div>  
 
       <div className="navHeader">
-        <a href='/'><img src={"./logoUnipecas.png"} alt="logo"/></a>
+        <a href='/'><img src={"./picture/logoUnipecas.png"} alt="logo"/></a>
           <ul id='navMenu' className={isActive ? 'ativo' : ''}>
-            <li><Link href='/'>Início</Link></li>
-            <li><Link href='/sobre-nos'>Sobre Nós</Link></li>
-            <li><Link href='/produtos'>Produtos</Link></li>
-            <li><Link href='/contato'>Contato</Link></li>
+            <li onClick={handleClick}><Link href='/'>Início</Link></li>
+            <li onClick={handleClick}><Link href='/sobre-nos'>Sobre Nós</Link></li>
+            <li onClick={handleClick}><Link href='/produtos'>Produtos</Link></li>
+            <li onClick={handleClick}><Link href='/contato'>Contato</Link></li>
           </ul>
           <div id='menu' onClick={handleClick}>
             <span className='bar'></span>

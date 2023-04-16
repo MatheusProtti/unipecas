@@ -1,4 +1,3 @@
-import './footer.css'
 import { SlSocialInstagram } from "react-icons/sl";
 import { BiEnvelope, BiPhone, BiTimeFive } from "react-icons/bi";
 
@@ -6,7 +5,7 @@ function Footer() {
     return(
         <div className='contentFooter'>
 
-            <a href='/'><img src={"./logo2Unipecas.jpg"} alt="logo"/></a>
+            <a href='/'><img src={"./picture/logo2Unipecas.jpg"} alt="logo"/></a>
             <div className='infoFooter'>
                 <h4>Fale Conosco</h4>
                 <span className='infoText'>
@@ -22,7 +21,7 @@ function Footer() {
                     <p>Seg - Sex : 8:00 - 17:30</p>
                 </span>
             </div>
-            <div>
+            <div className="redes">
                 <h4>Nossas redes</h4>
                 <a href='https://www.instagram.com/unipecas_correntes/' target="_blank">
                     <SlSocialInstagram

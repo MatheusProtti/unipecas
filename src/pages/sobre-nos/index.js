@@ -1,5 +1,3 @@
-import './sobrenos.css'
-
 function SobreNos() {
     return(
       <div>
@@ -15,8 +13,7 @@ function SobreNos() {
               <p>Atualmente a Equipe Técnica da UNIPEÇAS é referência nacional no desenvolvimento de soluções em correntes de transmissão e de engenharia.</p>
             </div>
             <div className='imagemUm'>
-              {/* <img src='trabalhador.jpg'/> */}
-              <img src='image4.png'/>
+              <img src='picture/image4.png'/>
             </div>
           </div>
         </div>
@@ -24,8 +21,7 @@ function SobreNos() {
         <div className='segundaSecao'>
           <div className='infoSecaoDois'>
             <div className='imagemDois'>
-              {/* <img src='trabalhador.jpg'/> */}
-              <img src='image6.png'/>
+              <img src='picture/image6.png'/>
             </div>
             <div className='aondeAtuamosDois'>
               <h2>Soluções para o seu negócio</h2>

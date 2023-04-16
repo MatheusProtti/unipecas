@@ -1,5 +1,4 @@
 import Link from "next/link";
-import './page.css'
 import Card from "@/Components/Card";
 
 function Home() {
@@ -26,19 +25,19 @@ function Home() {
               <div className="SectionProdutosPaginaHome">
                 <div className="produtos">
                   <Card 
-                    img={"Engrenagem-bipatida.png"}
+                    img={"picture/Engrenagem-bipatida.png"}
                     titulo={"Roda dentada bibartida"}
                   />
                   <Card 
-                    img={"acoplamento-de-correntes.png"}
+                    img={"picture/acoplamento-de-correntes.png"}
                     titulo={"Acoplamento de corrente"}
                   />
                   <Card 
-                    img={"correntes-pares.png"}
+                    img={"picture/correntes-pares.png"}
                     titulo={"corrente especial UNP"}
                   />
                   <Card 
-                    img={"Roda-flangeada.png"}
+                    img={"picture/Roda-flangeada.png"}
                     titulo={"Roda flangeada UNP"}
                   />
                 </div>
@@ -56,7 +55,7 @@ function Home() {
                 <p>Aproveite para baixar nosso catálogo e veja todos os nossos produtos!</p>
               </div>
               <div className="botaoParaPaginaProdutos">
-                <a className="botaoVerMaisProdutos btn" href="CatalogoUnipecas.pdf" target="_blank">DOWNLOAD DE NOSSO CATÁLOGO</a>
+                <a className="botaoVerMaisProdutos btn" href="artigos/CatalogoUnipecas.pdf" target="_blank">DOWNLOAD DE NOSSO CATÁLOGO</a>
               </div>
             </section>
         </div>
